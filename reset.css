@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: 0;
+  cursor: pointer;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
