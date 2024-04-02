@@ -18,7 +18,7 @@
 }
 .header .nav ul li {
 	list-style: none;
-	letter-spacing: -2px;
+	letter-spacing: -1px;
 	font-size: 1.125rem;
 	font-weight: 400;
 	margin: 0 10px;
@@ -32,7 +32,7 @@
 	display: flex;
 	flex-grow: 1;
 	justify-content: flex-end;
-    align-items: center;
+  align-items: center;
 	letter-spacing: -1px;
 	color: #666;
 	margin-right: 30px;
@@ -57,65 +57,96 @@
 /* //header */
 
 .banner {
-	/* height: 400px; */
+	height: 400px;
 	background-color: #2B4581;
 }
-.banner .container {
-	border: 1px solid black;
-	padding: 20px 30px;
-	box-sizing: border-box;
-	color: #fff;
-	display: flex;
-	flex-direction: column;
-}
-.banner .banner_text p:first-child {
-	margin: 0;
-	font-size: 40px;
-    font-weight: 400;
-    line-height: 50px;
-	letter-spacing: -3px;
-	padding-top: 50px;
-}
-.banner .banner_text p:last-child {
-	font-size: 18px;
-    font-weight: 100;
-	letter-spacing: -2px;
-	margin: 10px 0 0 0;
-}
-.banner .btn_look {
-	width: 75px;
-	border: 1px solid #fff;
-	padding: 12px 42px;
-	margin-top: 30px;
-	font-weight: 400;
-	letter-spacing: -2px;
-	border-radius: 2px;
-}
-
-
-
-/* //benner */
-
-
-
-
-
-
-
-
-
 
 
 /* //banner */
 
 .search {
 	height: 85px;
-	background-color: beige;
+	background: #FBFAF8;
 }
+.search .container {
+	padding: 15px 0;
+}
+
+.search .domain_box {
+	display: flex;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.search .btn_text {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 53px;
+	padding: 0 15px 0 20px;
+	background-color: #fff;
+}
+.search input {
+	border: 0;
+	font-size: 1.25rem;
+  font-weight: 300;
+	letter-spacing: -1px;
+	flex-grow: 1;
+}
+.search input::placeholder {
+	color: #ccc;
+}
+.search .domin_btn {
+	width: 130px;
+	background-color: #2C8BCB;
+	color: #fff;
+	font-size: 1.25rem;	
+}
+.search .domin_btn span {
+	margin-left: 5px;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+/* //search */
 .select {
-	height: 202px;
-	background-color: rgb(248, 248, 190);
+	/* background-color: rgb(248, 248, 190); */
 }
+.select .container {
+	display: flex;
+	padding: 40px 0;
+}
+.select .container div {
+	width: 25%;
+	text-align: center;
+	border: 1px solid #ccc;
+	margin-left: 20px;
+	padding: 20px 42px;
+	border-radius: 3px;
+}
+.select .container div:first-child {
+	margin-left: 0;
+}
+.select p.select_fi_p {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: -1px;
+	margin: 0;
+}
+.select p.select_se_p {
+	font-size: 1rem;
+	font-weight: 300;
+	letter-spacing: 0;
+	margin: 5px 0 0 0;
+	color: #666;
+}
+
+
+
+
+
+
+
+
+
+/* //search */
 .news {
 	height: 239px;
 	background-color: beige;
