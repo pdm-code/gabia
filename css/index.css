@@ -137,20 +137,105 @@
 	margin: 5px 0 0 0;
 	color: #666;
 }
-
-
-
-
-
-
-
-
-
 /* //search */
 .news {
-	height: 239px;
-	background-color: beige;
+	/* height: 239px; */
+
 }
+.news .container {
+	display: flex;
+}
+.news .container > div {
+	width: 50%;
+	margin-bottom: 70px;
+}
+.news .container > div:first-child {
+	margin-right: 20px;
+}
+.news .container > div div {
+	border-top: 2px solid #333;
+	padding-top: 20px;
+	margin-top: 15px;
+}
+
+.news .container div span {
+	font-size: 1.75rem;
+	font-weight: 400;
+	letter-spacing: -1px;
+}
+.news .container div .all_look {
+	font-weight: 300;
+	color: #666;
+	letter-spacing: -1px;
+	margin-left: 20px;
+}
+.news .container div div ul {
+	display: flex;
+	padding: 0;
+}
+.news .container div div ul li:first-child {
+	font-size: 14px;
+	background-color: #666;
+	width: 70px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+.news .container div div ul li:nth-child(2) {
+	font-weight: 300;
+	letter-spacing: -1px;
+	color: #333;
+}
+.news .container div div ul li:last-child {
+	flex-grow: 1;
+	text-align: right;
+	font-weight: 300;
+	letter-spacing: -1px;
+	color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.news div ul {
+	display: flex;
+}
+.news div ul li {
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //news */
 .question {
 	height: 278px;
 	background-color: rgb(248, 248, 190);
