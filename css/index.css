@@ -140,7 +140,6 @@
 /* //search */
 .news {
 	/* height: 239px; */
-
 }
 .news .container {
 	display: flex;
@@ -154,10 +153,9 @@
 }
 .news .container > div div {
 	border-top: 2px solid #333;
-	padding-top: 20px;
+	padding-top: 10px;
 	margin-top: 15px;
 }
-
 .news .container div span {
 	font-size: 1.75rem;
 	font-weight: 400;
@@ -196,54 +194,137 @@
 	letter-spacing: -1px;
 	color: #999;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .news div ul {
 	display: flex;
 }
 .news div ul li {
 	list-style: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* //news */
-.question {
-	height: 278px;
-	background-color: rgb(248, 248, 190);
+.banner2 {
+	height: 706px;
+	background-color: #1B71B8;
 }
+/* //banner2 */
+
+.question {
+	/* height: 278px; */
+	/* background-color: rgb(248, 248, 190); */
+}
+.question .container {
+	padding-bottom: 70px;
+}
+
+.question div p:first-child {
+	margin: 0;
+	font-size: 40px;
+	font-weight: 300;
+	letter-spacing: -1px;
+	text-align: center;
+	padding-top: 70px;
+}
+.question div p:last-child {
+	text-align: center;
+	color: #666;
+	margin-top: 15px;
+}
+.question div.question_menu {
+	text-align: center;
+}
+.question div a {
+	display: inline-block;
+	border: 1px solid;
+	width: 180px;
+	height: 44px;
+	line-height: 44px;
+	font-weight: 400;
+	letter-spacing: -1px;
+	color: #333;
+	border-radius: 3px;
+	margin: 30px 15px 40px 0;
+}
+.question div .question_num {
+	display: flex;
+	justify-content: center;
+}
+.question div .question_num div {
+	padding: 0 15px;
+}
+.question div .question_num span:first-child {
+	margin-right: 10px;
+	font-size: 1rem;
+	font-weight: 300;
+	letter-spacing: -0.03px;
+	color: #666;
+}
+.question div .question_num span:last-child {
+	font-weight: 300;
+	letter-spacing: -0.06px;
+	color: #1d7abd;
+}
+.question div ul {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+.question div ul li {
+	font-weight: 300;
+	letter-spacing: -0.03px;
+	color: #666;
+	margin: 20px 40px 0 0;
+}
+/* //question */
 .library {
 	height: 534px;
 	background-color: beige;
 }
+.library .library_head {
+	font-size: 34px;
+	font-weight: 400;
+	letter-spacing: -1px;
+	color: #333;
+	padding: 70px 0 30px 0;
+}
+.library .library_body {
+	display: flex;
+}
+.library .library_body > div {
+	width: 25%;
+	border-top: 2px solid #6f6f6f;
+	padding-top: 24px;
+	margin-right: 20px;
+	
+}
+.library .library_body  a {
+	display: block;
+	/* margin-right: 20px; */
+}
+.library .library_body  a:first-child {
+	font-size: 22px;
+	font-weight: 300;
+	letter-spacing: -1px;
+	color: #333;
+	line-height: 24px;
+	/* border-top: 2px solid #6f6f6f;
+	padding-top: 24px;  */
+}
+.library .library_body  a:last-child {
+	font-weight: 300;
+	letter-spacing: -1px;
+	color: #666;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* //library */
 .noticewrap {
 	height: 264px;
 	background-color: rgb(248, 248, 190);
